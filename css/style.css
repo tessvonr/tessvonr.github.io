@@ -1,5 +1,5 @@
 h2 {
-    font-size: 25px;
+    font-size: 20px;
     height: 60px;
     line-height: 60px;
     vertical-align: middle;
@@ -19,7 +19,7 @@ h2 {
 
 #BLiSSHeader {
     width: 200px;
-    margin: auto;
+    margin-top: 15px;
 }
 
 #rover {
@@ -38,7 +38,7 @@ h2 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     border-radius: 12px;
 }
