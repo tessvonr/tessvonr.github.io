@@ -19,7 +19,7 @@ h2 {
 
 #BLiSSHeader {
     width: 200px;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 #rover {
@@ -28,6 +28,28 @@ h2 {
     top: 80%;
     height: 300px;
     z-index: 1;
+}
+
+#roverbox {
+    visibility: hidden;
+    background-color: #6fcbf4;
+    border-radius: 12px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #6b2f98;
+    position: absolute;
+    left: 33%;
+    top: 63%;
+    width: 500px;
+    z-index: 2;
+    padding: 15px;
+    border-color: #a464ac;
+    border-style: solid;
+}
+
+#boxheader {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #joinbutton {
@@ -41,6 +63,7 @@ h2 {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     border-radius: 12px;
+    font-weight: bold;
 }
 
 .right {
