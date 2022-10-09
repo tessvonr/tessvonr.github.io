@@ -11,6 +11,7 @@ h2 {
 .nolink {
     text-decoration: none;
     color: white;
+    z-index: 3;
 }
 
 #BLiSSLogo {
@@ -20,7 +21,8 @@ h2 {
 
 #BLiSSHeader {
     width: 200px;
-    margin-top: 16px;
+    margin-top: 2px;
+    z-index: 3;
 }
 
 #rover {
@@ -72,6 +74,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     border-radius: 12px;
     font-weight: bold;
+    z-index: 3;
 }
 
 .right {
