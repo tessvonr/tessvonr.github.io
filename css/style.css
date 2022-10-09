@@ -12,6 +12,20 @@ h2 {
     text-decoration: none;
     color: white;
     z-index: 3;
+    position: relative;
+}
+
+.contactIcon {
+    z-index: 3;
+    height: 100;
+}
+
+#contactBox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #909090;
 }
 
 #BLiSSLogo {
@@ -23,6 +37,7 @@ h2 {
     width: 200px;
     margin-top: 2px;
     z-index: 3;
+    position: relative;
 }
 
 #rover {
@@ -75,6 +90,7 @@ h2 {
     border-radius: 12px;
     font-weight: bold;
     z-index: 3;
+    position: relative;
 }
 
 .right {
@@ -107,7 +123,7 @@ p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     font-size: 14px;
-    color: #333333;
+    color: white;
 }
 
 #BLiSSLogo {
@@ -159,7 +175,7 @@ p {
     position: relative;
     height: 20vh;
     text-align: center;
-    background-color: white;
+    background-color: #909090;
 }
 
 /* Animation */
