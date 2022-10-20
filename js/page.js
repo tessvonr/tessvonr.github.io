@@ -1,6 +1,5 @@
 // Main
 function showInfo() {
-    document.getElementById("roverbox").style.visibility = 'visible';
     document.getElementById("rover").src = "images/BLiSS_Rover2.png";
 }
 
