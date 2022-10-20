@@ -15,9 +15,9 @@ h2 {
     position: relative;
 }
 
-.contactIcon {
+#contactIcon {
     z-index: 3;
-    height: 50px;
+    height: 100px;
     text-align: center;
 }
 
