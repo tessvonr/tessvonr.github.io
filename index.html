@@ -1,89 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src='js/page.js'></script>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <head>
     <title>BLiSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 </head>
 
-<body>
-    <div class="header">
-        <h2>
-            <a href="index.html" class="left">
-                <img src="images/BLiSS_Logo.png" alt="BLiSS logo" id="BLiSSHeader">
-            </a>
-            <div class="right">
-                <a class="nolink" href="about.html">ABOUT US</a>
-                &nbsp;|&nbsp;
-                <a class="nolink" href="team.html">OUR TEAM</a>
-                &nbsp;|&nbsp;
-                <a class="nolink" href="projects.html">PROJECTS</a>
-                &nbsp;|&nbsp;
-                <a class="nolink" href="hab.html">THE HAB</a>
-                &nbsp;|&nbsp;
-                <button type="button" id="joinbutton">JOIN US!</button>
-            </div>
-        </h2>
-
-        <!--Content before waves-->
-        <div class="inner-header flex">
-            <!--Just the logo.. Don't mind this-->
-            <img src="images/blissmoon.png" alt="BLiSS logo" id="BLiSSLogo">
-            <h1>B L i S S @ M I C H I G A N</h1>
-        </div>
-        <!--Waves Container-->
-        <div id="waves">
-            <img src="images/earth.png" alt="earth" id="earth">
-            <img src="images/BLiSS_Rover.png" onmouseover="showInfo()" onmouseout="hideInfo()" alt="BLiSS logo"
-                id="rover">
-            <div id="roverbox">
-                <header id="boxheader">WE ARE BLiSS!</header>
-                dhsu hdsuhuwh dhuhe skdnjefue rifjiejf duhwd fhu fheuhre dheu hufhe! hfueh fheuh vhdh sjjsen hushd
-                kefeijfudh cnndh jfiejij ncjh.
-            </div>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                <defs>
-                    <path id="gentle-wave"
-                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(192,192,192,0.7)" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(192,192,192,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(192,192,192,0.3)" />
-                    <use class="front" xlink:href="#gentle-wave" x="48" y="7" fill="#c0c0c0" />
-                </g>
-            </svg>
-        </div>
-        <!--Waves end-->
-
+<body class="bg-dark">
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
     </div>
-    <!--Header ends-->
 
-    <!--Content starts-->
-    <div class="content flex">
-        <div id="contactBox">
-            <a
-                href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fmichiganbliss&sa=D&sntz=1&usg=AOvVaw3xDLVZj0Ma8erTcDiejefm">
-                <img src="images/facebook.png" alt="facebook" id="contactIcon">
-            </a>
-            <a href="mailto:michiganbliss@umich.edu">
-                <img src="images/mail.png" alt="email" id="contactIcon">
-            </a>
-            <a
-                href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2Fmichiganbliss%3Flang%3Den&sa=D&sntz=1&usg=AOvVaw3bfl73EZA4e0epr4MqFd9o">
-                <img src="images/twitter.png" alt="twitter" id="contactIcon">
-            </a>
-            <a
-                href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2Fmichiganbliss%3Flang%3Den&sa=D&sntz=1&usg=AOvVaw3bfl73EZA4e0epr4MqFd9o">
-                <img src="images/linkedin.png" alt="linkedin" id="contactIcon">
-            </a>
+    <header class="p-3 text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img src="images\blissmoon.png" width="60" class="img-fluid" alt="blisslogo">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="about.html" class="nav-link px-2 text-white">About Us</a></li>
+                    <li><a href="team.html" class="nav-link px-2 text-white">Our Team</a></li>
+                    <li><a href="projects.html" class="nav-link px-2 text-white">Projects</a></li>
+                </ul>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Current Members</button>
+                    <button type="button" class="btn btn-light me-2">Join Us!</button>
+                </div>
+            </div>
         </div>
-    </div>
-    <!--Content ends-->
+    </header>
+
+    <div class="container py-4">
+        <div class="bg-light border p-4 mb-4 rounded-3">
+            <div class="container-fluid">
+                <h1 class="display-5 fw-bold text-white">Bioastronautics and Life Support Systems
+                </h1>
+                <p class="col-md-8 fs-8 text-white">Michigan's Bioastronautics and Life Support System (BLiSS) team is a
+                    student-run research team designing, building, and
+                    testing deep-space habitat prototype technology. The team conducts research in the Space Research
+                    Building on the North
+                    Campus of the University of Michigan. Founded in 2015 by Dan Abramov, the BLiSS team is comprised of
+                    both undergraduate
+                    and graduate students from multiple disciplines at the university.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6"><img src="images\hab.png" class="img-fluid" alt="blisslogo"></div>
+                    <div class="col-12 col-md-6"><img src="images\hab3.png" class="img-fluid" alt="blisslogo"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+                <div class="h-100 p-4 bg-light text-white border rounded-3">
+                    <h2>30+ team members across all sub-teams</h2>
+                    <img src="images\slideshow1.JPG" class="img-fluid" alt="blisslogo">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100 p-4 bg-light text-white border rounded-3">
+                    <h2>8 successful projects with NASA since 2015</h2>
+                    <img src="images\slideshow2.jpg" class="img-fluid" alt="blisslogo">
+                    <img src="images\hab2.png" class="img-fluid" alt="blisslogo">
+                </div>
+            </div>
+        </div>
+
+        <footer class="container">
+            <p class="float-end"><a href="#" class="text-white">Back to top</a></p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
 </body>
-
-<!---->
 
 </html>
