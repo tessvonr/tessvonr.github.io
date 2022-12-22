@@ -26,6 +26,14 @@
     z-index: -1;
 }
 
+.bg-primary {
+    background-color: #a464ac !important;
+}
+
+.bg-secondary {
+    background-color: #3d1b57 !important;
+}
+
 #stars {
     width: 1px;
     height: 1px;
