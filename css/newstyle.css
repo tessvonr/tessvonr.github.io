@@ -34,6 +34,15 @@
     background-color: #3d1b57 !important;
 }
 
+.img-portrait {
+    height: 275px;
+    object-fit: cover;
+}
+
+.btn-lg {
+    width: 300px;
+}
+
 #stars {
     width: 1px;
     height: 1px;
