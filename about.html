@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 </head>
 
-<body>
-    <header class="p-3 bg-dark text-white">
+<body class="bg-dark">
+    <header class="p-3 text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -33,6 +33,172 @@
             </div>
         </div>
     </header>
+
+    <main>
+        <h1 class="text-white text-center mb-4">About Us</h1>
+        <h2 class="text-white text-center mb-4">Current Projects</h2>
+        <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-next carousel-item-start">
+                    <svg width="100%" height="550px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#3d1b57"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Sensorimotor Assessment Tool (SMAT)</h1>
+                            <p>During transitions from microgravity to heavier
+                                bodies (eg. Earth, Moon, and Mars)
+                                astronauts need to adapt or severe disorientation and motion sickness will occur. The
+                                SMAT project seeks to develop an obstructive sensor that monitor's astronaut's head
+                                and body motion in microgravity
+                                and develop metrics that can characterize astronauts' on-orbit head and motion.</p>
+                            <img src="images\conops.png" class="img-fluid mb-4" width="500px" alt="blisslogo">
+                            <p><a class="btn btn-lg btn-outline-light" href="#">I want to learn more!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="550px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#662d91"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <img src="images\group2.jpg" class="img-fluid" alt="blisslogo">
+                                </div>
+                                <div class="col">
+                                    <img src="images\group2.jpg" class="img-fluid" alt="blisslogo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active carousel-item-start">
+                    <svg width="100%" height="550px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#a464ac"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+      ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette text-white">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading text-white">First featurette heading. <span
+                            class="text-muted text-white">It’ll blow your
+                            mind.</span></h2>
+                    <p class="lead text-white">Some great placeholder content for the first featurette here. Imagine
+                        some exciting
+                        prose here.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider text-white">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading text-white">Oh yeah, it’s that good. <span
+                            class="text-muted text-white">See for
+                            yourself.</span></h2>
+                    <p class="lead text-white">Another featurette? Of course. More placeholder content here to give you
+                        an idea of
+                        how
+                        this layout would work with some actual real-world content in place.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider text-white">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading text-white">And lastly, this one. <span
+                            class="text-muted text-white">Checkmate.</span></h2>
+                    <p class="lead text-white">And yes, this is the last block of representative placeholder content.
+                        Again, not
+                        really
+                        intended to be actually read, simply here to give you a better view of what this would look like
+                        with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+    </main>
 
     <footer class="container">
         <p class="float-end"><a href="#" class="text-white">Back to top</a></p>
