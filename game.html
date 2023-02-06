@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=256 height=240></canvas>
+      <canvas id="unity-canvas" width=1024 height=960></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/zelda2.loader.js";
+      var loaderUrl = buildUrl + "/zelda3.loader.js";
       var config = {
-        dataUrl: buildUrl + "/zelda2.data",
-        frameworkUrl: buildUrl + "/zelda2.framework.js",
-        codeUrl: buildUrl + "/zelda2.wasm",
+        dataUrl: buildUrl + "/zelda3.data",
+        frameworkUrl: buildUrl + "/zelda3.framework.js",
+        codeUrl: buildUrl + "/zelda3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "256px";
-        canvas.style.height = "240px";
+        canvas.style.width = "1024px";
+        canvas.style.height = "960px";
       }
 
       loadingBar.style.display = "block";
